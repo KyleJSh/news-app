@@ -13,6 +13,7 @@
 		C80A482C25EDA954001DB913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80A482A25EDA954001DB913 /* Main.storyboard */; };
 		C80A482E25EDA95B001DB913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C80A482D25EDA95B001DB913 /* Assets.xcassets */; };
 		C80A483125EDA95B001DB913 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C80A482F25EDA95B001DB913 /* LaunchScreen.storyboard */; };
+		C80A483A25EDA99A001DB913 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80A483925EDA99A001DB913 /* Article.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C80A482D25EDA95B001DB913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C80A483025EDA95B001DB913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C80A483225EDA95B001DB913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C80A483925EDA99A001DB913 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C80A482425EDA954001DB913 /* AppDelegate.swift */,
 				C80A482625EDA954001DB913 /* SceneDelegate.swift */,
 				C80A482825EDA954001DB913 /* ViewController.swift */,
+				C80A483925EDA99A001DB913 /* Article.swift */,
 				C80A482A25EDA954001DB913 /* Main.storyboard */,
 				C80A482D25EDA95B001DB913 /* Assets.xcassets */,
 				C80A482F25EDA95B001DB913 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80A483A25EDA99A001DB913 /* Article.swift in Sources */,
 				C80A482925EDA954001DB913 /* ViewController.swift in Sources */,
 				C80A482525EDA954001DB913 /* AppDelegate.swift in Sources */,
 				C80A482725EDA954001DB913 /* SceneDelegate.swift in Sources */,
