@@ -16,6 +16,7 @@
 		C80A483A25EDA99A001DB913 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80A483925EDA99A001DB913 /* Article.swift */; };
 		C80A483D25EDAB39001DB913 /* ArticleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80A483C25EDAB39001DB913 /* ArticleService.swift */; };
 		C80A484025EDAB94001DB913 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80A483F25EDAB93001DB913 /* ArticleModel.swift */; };
+		C8869A0D25EEEB4C00EB8B1F /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8869A0C25EEEB4C00EB8B1F /* ArticleCell.swift */; };
 		C8FB472F25EDC94E00FD3565 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FB472E25EDC94E00FD3565 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		C80A483925EDA99A001DB913 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		C80A483C25EDAB39001DB913 /* ArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
 		C80A483F25EDAB93001DB913 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		C8869A0C25EEEB4C00EB8B1F /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		C8FB472E25EDC94E00FD3565 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,6 +71,7 @@
 				C80A482825EDA954001DB913 /* ViewController.swift */,
 				C8FB472E25EDC94E00FD3565 /* DetailViewController.swift */,
 				C80A483F25EDAB93001DB913 /* ArticleModel.swift */,
+				C8869A0C25EEEB4C00EB8B1F /* ArticleCell.swift */,
 				C80A483925EDA99A001DB913 /* Article.swift */,
 				C80A483C25EDAB39001DB913 /* ArticleService.swift */,
 				C80A482A25EDA954001DB913 /* Main.storyboard */,
@@ -149,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8869A0D25EEEB4C00EB8B1F /* ArticleCell.swift in Sources */,
 				C80A483D25EDAB39001DB913 /* ArticleService.swift in Sources */,
 				C80A483A25EDA99A001DB913 /* Article.swift in Sources */,
 				C80A482925EDA954001DB913 /* ViewController.swift in Sources */,
