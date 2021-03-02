@@ -9,6 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    
     var model = ArticleModel()
     var articles = [Article]()
     
@@ -29,6 +33,7 @@ extension ViewController: ArticleModelProtocol {
     
     
     func articlesRetrieved(_ articles: [Article]) {
+        
         self.articles = articles
         
     }
