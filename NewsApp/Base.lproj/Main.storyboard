@@ -53,7 +53,6 @@
                                         <connections>
                                             <outlet property="articleImageView" destination="QdS-Jt-6fP" id="fcA-ob-HqB"/>
                                             <outlet property="headlineLabel" destination="FQJ-UI-eov" id="6Fn-wa-GkQ"/>
-                                            <segue destination="anK-Ei-HF1" kind="show" id="ClP-G8-2us"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -71,6 +70,7 @@
                     <navigationItem key="navigationItem" id="M6u-mk-gpx"/>
                     <connections>
                         <outlet property="tableView" destination="2vb-OA-Yey" id="J42-I7-bZF"/>
+                        <segue destination="anK-Ei-HF1" kind="show" identifier="goToDetail" id="VAm-1W-kW3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -93,18 +93,24 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="SKs-5B-zX0">
+                                <rect key="frame" x="197" y="438" width="20" height="20"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="dgj-jm-yNc"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="K8h-iN-h77" secondAttribute="bottom" id="CE0-B8-tXx"/>
                             <constraint firstItem="K8h-iN-h77" firstAttribute="top" secondItem="BVn-lJ-S1k" secondAttribute="top" id="DGw-AL-OI4"/>
+                            <constraint firstItem="SKs-5B-zX0" firstAttribute="centerY" secondItem="BVn-lJ-S1k" secondAttribute="centerY" id="I9D-Q2-RCB"/>
                             <constraint firstAttribute="trailing" secondItem="K8h-iN-h77" secondAttribute="trailing" id="NVx-db-BM4"/>
+                            <constraint firstItem="SKs-5B-zX0" firstAttribute="centerX" secondItem="BVn-lJ-S1k" secondAttribute="centerX" id="Ti1-XK-vcR"/>
                             <constraint firstItem="K8h-iN-h77" firstAttribute="leading" secondItem="BVn-lJ-S1k" secondAttribute="leading" id="d1i-HB-YFy"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="uf7-eh-fvc"/>
                     <connections>
+                        <outlet property="spinner" destination="SKs-5B-zX0" id="kzA-7V-1TM"/>
                         <outlet property="webView" destination="K8h-iN-h77" id="J5v-je-F6K"/>
                     </connections>
                 </viewController>

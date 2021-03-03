@@ -77,11 +77,12 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         
     }
     
-    //    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-    //
-    //    }
+        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
     
-    
+            // user has just selected a row, trigger the segue to go to detail
+            performSegue(withIdentifier: "goToDetail", sender: self)
+            
+        }
     
 }
 
