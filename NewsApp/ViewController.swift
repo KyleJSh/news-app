@@ -29,6 +29,28 @@ class ViewController: UIViewController {
         
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        // detech index path user has selected
+        
+        let indexPath = tableView.indexPathForSelectedRow
+        
+        guard indexPath != nil else {
+            // the user hasn't selected anything
+            return
+        }
+        
+        // get the article the user tapped on
+        let article = articles[indexPath!.row]
+        
+        // get a reference to the detail view controller
+        let detailVC = segue.destination as! DetailViewController
+        
+        // pass the article url to the detail view controller
+        detailVC.articleUrl = article.url!
+        
+    }
+    
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
