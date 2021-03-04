@@ -30,7 +30,7 @@ class ArticleCell: UITableViewCell {
         headlineLabel.text = articleToDisplay!.title
         
         // Animate the label into view
-        UIView.animate(withDuration: 0.6, delay: 0, options: .curveEaseOut, animations: {
+        UIView.animate(withDuration: 0.5, delay: 0, options: .curveEaseOut, animations: {
             
             self.headlineLabel.alpha = 1
             
