@@ -9,9 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    
     @IBOutlet weak var tableView: UITableView!
-    
     
     var model = ArticleModel()
     var articles = [Article]()

@@ -22,11 +22,11 @@ class ArticleModel {
         // fire off the request to the API
         
         // create a string URL
-        let stringURL = "http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=738171768cd641cd9e57d6612abe6a5f"
+        let stringUrl = "http://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=738171768cd641cd9e57d6612abe6a5f"
         
         // create a url object
         
-        let url = URL(string: stringURL)
+        let url = URL(string: stringUrl)
         
         // check that it isn't nil
         guard url != nil else {
