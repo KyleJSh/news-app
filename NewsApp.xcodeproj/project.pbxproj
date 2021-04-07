@@ -74,6 +74,7 @@
 			children = (
 				C80A482425EDA954001DB913 /* AppDelegate.swift */,
 				C80A482625EDA954001DB913 /* SceneDelegate.swift */,
+				C80A482A25EDA954001DB913 /* Main.storyboard */,
 				C80A482825EDA954001DB913 /* ViewController.swift */,
 				C8FB472E25EDC94E00FD3565 /* DetailViewController.swift */,
 				C80A483F25EDAB93001DB913 /* ArticleModel.swift */,
@@ -81,7 +82,6 @@
 				C80A483925EDA99A001DB913 /* Article.swift */,
 				C80A483C25EDAB39001DB913 /* ArticleService.swift */,
 				C8BF9A5925EF0960007FE211 /* CacheManager.swift */,
-				C80A482A25EDA954001DB913 /* Main.storyboard */,
 				C80A482D25EDA95B001DB913 /* Assets.xcassets */,
 				C80A482F25EDA95B001DB913 /* LaunchScreen.storyboard */,
 				C80A483225EDA95B001DB913 /* Info.plist */,
