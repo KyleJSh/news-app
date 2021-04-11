@@ -34,6 +34,11 @@
 		C80A483925EDA99A001DB913 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		C80A483C25EDAB39001DB913 /* ArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
 		C80A483F25EDAB93001DB913 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
+		C85E1CEA2622998300E70E63 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C85E1CEB2622999A00E70E63 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image1.png; path = ../../../image1.png; sourceTree = "<group>"; };
+		C85E1CEC2622999A00E70E63 /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image4.png; path = ../../../image4.png; sourceTree = "<group>"; };
+		C85E1CED2622999A00E70E63 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image3.png; path = ../../../image3.png; sourceTree = "<group>"; };
+		C85E1CEE2622999A00E70E63 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image2.png; path = ../../../image2.png; sourceTree = "<group>"; };
 		C8869A0C25EEEB4C00EB8B1F /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		C8BF9A5925EF0960007FE211 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		C8BF9A5F25EF0D80007FE211 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -55,6 +60,11 @@
 		C80A481825EDA953001DB913 = {
 			isa = PBXGroup;
 			children = (
+				C85E1CEA2622998300E70E63 /* README.md */,
+				C85E1CEB2622999A00E70E63 /* image1.png */,
+				C85E1CEE2622999A00E70E63 /* image2.png */,
+				C85E1CED2622999A00E70E63 /* image3.png */,
+				C85E1CEC2622999A00E70E63 /* image4.png */,
 				C80A482325EDA954001DB913 /* NewsApp */,
 				C80A482225EDA954001DB913 /* Products */,
 				C8BF9A5E25EF0D7F007FE211 /* Frameworks */,
