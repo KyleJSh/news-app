@@ -34,11 +34,11 @@
 		C80A483925EDA99A001DB913 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		C80A483C25EDAB39001DB913 /* ArticleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleService.swift; sourceTree = "<group>"; };
 		C80A483F25EDAB93001DB913 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
-		C85E1CEA2622998300E70E63 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		C85E1CF126229A7C00E70E63 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		C85E1CF126229A7C00E70E63 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = SOURCE_ROOT; };
 		C85E1CF226229A7D00E70E63 /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
 		C85E1CF326229A7D00E70E63 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
 		C85E1CF426229A7D00E70E63 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		C85E1CF726229DFA00E70E63 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C8869A0C25EEEB4C00EB8B1F /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		C8BF9A5925EF0960007FE211 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		C8BF9A5F25EF0D80007FE211 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
@@ -60,12 +60,11 @@
 		C80A481825EDA953001DB913 = {
 			isa = PBXGroup;
 			children = (
-				C85E1CEA2622998300E70E63 /* README.md */,
+				C85E1CF726229DFA00E70E63 /* README.md */,
 				C85E1CF126229A7C00E70E63 /* image1.png */,
 				C85E1CF326229A7D00E70E63 /* image2.png */,
 				C85E1CF426229A7D00E70E63 /* image3.png */,
 				C85E1CF226229A7D00E70E63 /* image4.png */,
-				C85E1CF026229A7200E70E63 /* README */,
 				C80A482325EDA954001DB913 /* NewsApp */,
 				C80A482225EDA954001DB913 /* Products */,
 				C8BF9A5E25EF0D7F007FE211 /* Frameworks */,
@@ -98,13 +97,6 @@
 				C80A483225EDA95B001DB913 /* Info.plist */,
 			);
 			path = NewsApp;
-			sourceTree = "<group>";
-		};
-		C85E1CF026229A7200E70E63 /* README */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = README;
 			sourceTree = "<group>";
 		};
 		C8BF9A5E25EF0D7F007FE211 /* Frameworks */ = {
