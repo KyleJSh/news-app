@@ -60,6 +60,11 @@
 		C80A481825EDA953001DB913 = {
 			isa = PBXGroup;
 			children = (
+				C85E1CEA2622998300E70E63 /* README.md */,
+				C85E1CF126229A7C00E70E63 /* image1.png */,
+				C85E1CF326229A7D00E70E63 /* image2.png */,
+				C85E1CF426229A7D00E70E63 /* image3.png */,
+				C85E1CF226229A7D00E70E63 /* image4.png */,
 				C85E1CF026229A7200E70E63 /* README */,
 				C80A482325EDA954001DB913 /* NewsApp */,
 				C80A482225EDA954001DB913 /* Products */,
@@ -98,11 +103,6 @@
 		C85E1CF026229A7200E70E63 /* README */ = {
 			isa = PBXGroup;
 			children = (
-				C85E1CEA2622998300E70E63 /* README.md */,
-				C85E1CF126229A7C00E70E63 /* image1.png */,
-				C85E1CF326229A7D00E70E63 /* image2.png */,
-				C85E1CF426229A7D00E70E63 /* image3.png */,
-				C85E1CF226229A7D00E70E63 /* image4.png */,
 			);
 			path = README;
 			sourceTree = "<group>";
